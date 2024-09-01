@@ -1,9 +1,8 @@
 {{ $indicator := .Params.flag }}
 {{ $target := "landing-page" }}
-
 <nav class="navbar">
-    <div class="navbar__container {{ if eq $indicator $target }} navbar__container--main {{ end }}">
-        <a href="7" class="logo">
+    <div class="navbar__container {{ if eq $indicator $target }} navbar__container--main {{ end }} ">
+        <a class="logo" href="/">
             <i class="fab fa-cloudflare"></i>
             <b>تقنية</b>
         </a>
@@ -12,7 +11,7 @@
         <ul>
             <li><a href="hero" class="active">من نحن</a></li>
             <li><a href="services">خدماتنا</a></li>
-            <li><a href="projects">معرض الاعمال</a></li>
+            <li><a href="projects">معرض الأعمال</a></li>
             <li><a href="contact-us">تواصل معنا</a></li>
         </ul>
         {{ end }}

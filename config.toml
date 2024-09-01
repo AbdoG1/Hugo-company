@@ -1,4 +1,8 @@
-baseURL = ''
-relativeURLs = "true"
-languageCode = 'ar'
-title = 'شركة تقنية'
+baseURL = ""
+relativeURLs = "true" 
+languageCode = "en-us"
+title = "Landing Page"
+
+[permalinks]
+  services = "/our-services/:filename/"
+  projects = "/our-projects/:filename/"
